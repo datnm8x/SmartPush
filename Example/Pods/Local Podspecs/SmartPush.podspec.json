@@ -1,0 +1,41 @@
+{
+  "name": "SmartPush",
+  "version": "1.0.0",
+  "license": "MIT",
+  "summary": "A APNS push framework for Apple platforms.",
+  "homepage": "https://github.com/datnm8x/SmartPush",
+  "authors": {
+    "Dat Ng": "datnm8x@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/datnm8x/SmartPush.git",
+    "tag": "1.0.0"
+  },
+  "ios": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "datnm8x.com.SmartPush"
+    }
+  },
+  "osx": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "datnm8x.com.SmartPush"
+    }
+  },
+  "platforms": {
+    "ios": "10.0",
+    "osx": "10.12"
+  },
+  "swift_versions": [
+    "5.3",
+    "5.4",
+    "5.5"
+  ],
+  "source_files": "Source/*.swift",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Source/Core/*.{h,m}"
+    }
+  ],
+  "swift_version": "5.5"
+}

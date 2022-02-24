@@ -1,0 +1,18 @@
+PODS:
+  - SmartPush (1.0.0):
+    - SmartPush/Core (= 1.0.0)
+  - SmartPush/Core (1.0.0)
+
+DEPENDENCIES:
+  - SmartPush (from `../SmartPush.podspec`)
+
+EXTERNAL SOURCES:
+  SmartPush:
+    :path: "../SmartPush.podspec"
+
+SPEC CHECKSUMS:
+  SmartPush: b94ddf42070de69ddde7bf3efebcf2620e2a60be
+
+PODFILE CHECKSUM: e0663988e3b1fdfcead935fb56b21a2f253e03e1
+
+COCOAPODS: 1.11.2
